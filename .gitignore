@@ -9,3 +9,4 @@ user.cfg
 .vscode/
 venv/
 crypto_trading.db
+apprise.yml

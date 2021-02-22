@@ -1,0 +1,9 @@
+# Define version
+version: 1
+
+# Define your URLs (Mandatory!)
+urls:
+  # - tgram://bottoken/ChatID
+  # - discord://{WebhookID}/{WebhookToken}/
+  # - slack://{tokenA}/{tokenB}/{tokenC}
+  # More options here: https://github.com/caronc/apprise
