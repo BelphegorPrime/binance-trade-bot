@@ -407,7 +407,7 @@ def main():
     while True:
         try:
             time.sleep(5)
-            scout(client, 0.00075)
+            scout(client)
         except Exception as e:
             Logger.log('Error while scouting...\n{}\n'.format(traceback.format_exc()))
 
