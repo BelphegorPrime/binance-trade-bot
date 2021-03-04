@@ -33,6 +33,7 @@ def main():
     schedule.every(1).minutes.do(db.prune_scout_history).tag("pruning scout history")
     schedule.every(1).hours.do(db.prune_value_history).tag("pruning value history")
 
+    logger.info("Finished initializing and start with scouting. Please stand by.")
     while True:
         schedule.run_pending()
         time.sleep(1)
